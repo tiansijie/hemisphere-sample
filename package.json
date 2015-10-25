@@ -1,0 +1,32 @@
+{
+  "name": "hemisphere-sample",
+  "version": "1.0.0",
+  "description": "Uniform and cosinus hemisphere sampling using hammersley point set",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir dist",
+    "watch": "babel src --watch --out-dir dist",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "hemisphere",
+    "sample",
+    "sampling",
+    "hammersley point",
+    "hammersley",
+    "sphere sample",
+    "hemisphere sample",
+    "hemisphere sampling",
+    "cosinus sampling",
+    "uniform sampling"
+  ],
+  "author": "Sijie",
+  "license": "MIT",
+  "dependencies": {
+    "hammersley": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel": "^5.8.29"
+  }
+}
