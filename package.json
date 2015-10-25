@@ -9,6 +9,10 @@
     "watch": "babel src --watch --out-dir dist",
     "prepublish": "npm run build"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tiansijie/hemisphere-sample.git"
+  },
   "keywords": [
     "hemisphere",
     "sample",
